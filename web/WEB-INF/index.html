@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <meta charset="UTF-8">
+    <title>认识table表标签</title>
+</head>
+<style type="text/css">
+    table tr td, th {
+        border: 1px solid #000;
+        text-align: center;
+        width: 150px;
+    }
+
+    a{
+        color: #ff5600;
+    }
+    .mail{
+        color: #00b72d;
+    }
+</style>
+<table summary="本表格记录2012年到2013年库存记录，记录包括U盘和耳机库存量">
+    <caption>2012年到2013年库存记录</caption>
+    <tr>
+        <th>产品名称</th>
+        <th>品牌</th>
+        <th>库存量（个）</th>
+        <th>入库时间</th>
+    </tr>
+    <tr>
+        <td>耳机</td>
+        <td>联想</td>
+        <td>500</td>
+        <td>2013-1-2</td>
+    </tr>
+    <tr>
+        <td>U盘</td>
+        <td>金士顿</td>
+        <td>120</td>
+        <td>2013-8-10</td>
+    </tr>
+    <tr>
+        <td>U盘</td>
+        <td>爱国者</td>
+        <td>133</td>
+        <td>2013-3-25</td>
+    </tr>
+</table>
+<a href="http://www.baidu.com" title="点击进入百度" target="_blank">百度，无所不能</a>
+<a class="mail" href="mailto:aongi@163.com?subject=邮件名&body=邮件内容">点击发送邮件</a>
+<img src="http://m.350351.com/uploads/allimg/141106/1603351G0-0.jpg">
+<form method="post" action="index.jsp">
+    <label for="username">用户名:</label>
+    <input type="text"  name="username" id="username" value="" />
+    <label for="pass">密码:</label>
+    <input type="password"  name="pass" id="pass" value="" />
+    <input type="submit" value="确定"  name="submit" />
+    <input type="reset" value="重置" name="reset" />
+</form>
+</body>
+</html>
